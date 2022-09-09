@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.container {
+    font-family: "Roboto",sans-serif,monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.visit-templates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #E1E7F3;
+    flex-basis: 48px;
+}
+
+.colose-btn {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 19px;
+    right: 18px;
+    background-image: url(/image/close.svg);
+    background-position: center; 
+    border: none;
+}
+
+.visit{
+    font-size: 13px;
+    text-decoration: none;
+    color: #373C42;
+}
+
+.colose-btn:hover {
+    background-color: rgba(219, 253, 220, 0.596);
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.position-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 96px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.list-item-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    margin-right: 38px;
+}
+
+.item::marker {
+    color: #7361E7;
+    
+}
+
+.item:nth-child(3n) {
+    list-style-type: square;
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #373C42;
+    text-decoration: underline 1px solid #7361E7;
+    text-underline-offset: 4px;
+
+}
+
+a:hover {
+    background-color: rgba(219, 253, 220, 0.596);
+}
+
+button:hover {
+    background-color: rgba(219, 253, 220, 0.596);
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    display: flex;
+    flex-basis: 120px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.date-text {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #373C42;
+
+    
+}
+
+.date-circles {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.date-underline { 
+    width: 200px;
+    height: 1px;
+    background: #9181FF;
+    border: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-h1{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 75px;
+    text-align: center;
+    color: #373C42;
+    width: 80%;
+    overflow-wrap: break-word;
+}
+
+.portfolio-template{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #7F8893;
+    width: 55%;
+}
+
+.buttons-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 53px;
+    margin: 41px 0 65px 0;
+}
+
+.start-project {
+    width: 199px;
+    height: 54px;
+    border-radius: 500px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    color: #373C42;
+    border: 1px solid #9181FF ;
+}
+
+.we-are-hiring {
+    width: 174px;
+    height: 54px;
+    border-radius: 500px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    background-color: #9181FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.main-frame {
+    width:100%;
+    height:auto;
+}
+.business-ideas{
+    position: relative;
+    background-color: #ECF0F7;
+    height: 2200px;
+}
+.idea{
+    width: 50%;
+}
+
+.idea:nth-child(1) {
+    position: absolute;
+    left: 50%;
+    top: 120px;
+}
+
+.idea:nth-child(2) {
+    position: absolute;
+    right: 50%;
+    top: 280px;
+    
+}
+
+.idea:nth-child(3) {
+    position: absolute;
+    right: 50%;
+    top: 920px;
+}
+
+
+.idea:nth-child(4) {
+    position: absolute;
+    left: 50%;
+    top:760px;
+
+}
+
+.idea:nth-child(5) {
+    position: absolute;
+    right: 50%;
+    top: 1560px;
+
+}
+
+.idea:nth-child(6) {
+    position: absolute;
+    left: 50%;
+    top: 1400px;
+}
+
+.btn-arrow {
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    border: none;
+    position: absolute;
+    top:78px;
+    right:15px;
+    background-image: url(/image/IMAGEbtn-arrow.svg);
+}
+
+.main-photo-content{
+    position: relative;
+}
+
+.solutions, .procedure {
+   
+    display: flex;
+    flex-direction: column;
+
+}
+
+.how-we-work, .know-more {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    
+}
+
+
+
+.titles-works, .procedure-titles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.h2-title, .h2-about {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #373C42;
+    padding-left: 10%;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.h3-title, .h3-procedure, .about-medium-h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #373C42;
+    padding-left: 10%;
+    margin: 5%;
+}
+
+.paragraph-portfolio, .paragraph-procedure, .paragraph-about-medium {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #373C42;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 35px;
+    flex-basis: 39%;
+}
+
+.link-works, .link-procedure, .link-about-medium {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #373C42;
+}
+.underline-works, .underline-about{
+width: 120px;
+height: 1px;
+background: #9181FF;
+margin-left:0px;
+border: none;
+}
+
+
+.type-of-works{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fill, minmax(350px, 1fr));
+    list-style: none;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.works-marker{
+    display: inline-flex;
+    gap: 15px;
+}
+
+.works-marker hr{
+    width: 120px;
+    background: #9181FF;
+    height: 1px;
+    border: none;
+}
+
+.works span {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #373C42;
+}
+
+.paragraph-works {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #373C42;
+    height: 100px;
+    width: 350px;
+}
+
+.h3-works {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #373C42;
+}
+
+.procedure{
+    background-color: #F8FE91;
+}
+
+.procedure-list {
+    margin: 30px;
+}
+.procedure-titles {
+    width: 50%;
+}
+
+.procedure-items{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 90px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.procedure-item h3{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.procedure-item:nth-child(1n){
+    border-top: 1px solid black;
+}
+.procedure-item:last-child{
+    /* margin-bottom:115px; */
+    border-bottom: 1px solid black;
+}
+.procedure-item h3{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #373C42;
+    position: relative;
+}
+
+.procedure-item {
+    display: flex;
+    flex-basis: 113px;
+  
+}
+
+.procedure-item:first-child {
+    padding-left: 5%;
+}
+
+.procedure-item:nth-child(2) {
+    padding-left:50%;
+}
+
+.procedure-item:nth-child(3) {
+    padding-left:30%;
+}
+.procedure-item:nth-child(4) {
+    padding-left:63%;
+}
+.procedure-item:nth-child(5) {
+    padding-left:39%;
+}
+.procedure-item:nth-child(6) {
+    padding-left:11%;
+}
+
+.number-item{
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    position: absolute;
+    left: -30px;
+    top: 45px;
+}
+
+.about-medium {
+    background: 
+    repeating-linear-gradient(to right, 
+    #8372F0 360px, 
+    rgba(156, 156, 156, 0.83)360px 361px, 
+    #8372F0 361px 720px);
+    padding: 120px;
+    display: flex;
+    gap:73px;
+   
+}
+
+
+.our-core-values{
+    flex-basis: 720px;
+}
+
+.h2-about, 
+.about-medium-h3, 
+.paragraph-about-medium, 
+.link-about-medium {
+    color: #FFFFFF;
+}
+
+.paragraph-about-medium{
+    padding-left: 10%;
+}
+.underline-about{
+    background: #FFFFFF;
+}
+
+.review-image{
+    width: 100%;
+    height: auto;
+}
+
+.review-robert, .review-lindsay {
+    width: 70%;
+    height: 27%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.review-lindsay {
+    top:215px;
+    right: -50px;
+    
+}
+
+.review-robert {
+    top:450px;
+    right: 390px;
+}
+
+.reviews{
+    position: relative;
+}
+
+.worker-position{
+    display: flex;
+    gap: 20px;
+}
+.photo-worker {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.review-lindsay .photo-worker{
+   background-size: cover;
+    background-image: url(/image/IMAGElindsay-review.svg);
+}
+
+.review-robert .photo-worker {
+    background-image: url(/image/IMAGErobert-review.svg);
+    background-size: cover;
+}
+
+.review-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #373C42;
+}
+.review-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #373C42;
+}
