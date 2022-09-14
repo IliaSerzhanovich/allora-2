@@ -7,7 +7,6 @@
 /* header */
 
 .burger-menu {
-   /*  display: none; */
     width: 25px;
     height: 25px;
     background-size: cover ;
@@ -19,13 +18,13 @@
 .container {
     font-family: "Roboto",sans-serif,monospace;
 }
-.container{
+.container {
     display: flex;
     flex-direction: column;
 }
 
 
-.visit-templates{
+.visit-templates {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +44,7 @@
     border: none;
 }
 
-.visit{
+.visit {
     font-size: 13px;
     text-decoration: none;
     color: #373C42;
@@ -58,7 +57,7 @@
     height: 15px;
 }
 
-.position-head{
+.position-head {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +99,6 @@
     color: #373C42;
     text-decoration: underline 1px solid #7361E7;
     text-underline-offset: 4px;
-
 }
 
 a:hover {
@@ -122,7 +120,7 @@ button:hover {
 /* main */
 
 /* date with circles */
-.date{
+.date {
     display: flex;
     flex-basis: 120px;
     flex-direction: row;
@@ -140,14 +138,11 @@ button:hover {
     line-height: 24px;
     text-transform: uppercase;
     color: #373C42;
-
-    
 }
 
 .date-circles {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .date-underline { 
@@ -165,7 +160,7 @@ button:hover {
     align-items: center;
 }
 
-.title-h1{
+.title-h1 {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -177,7 +172,7 @@ button:hover {
     overflow-wrap: break-word;
 }
 
-.portfolio-template{
+.portfolio-template {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -235,23 +230,21 @@ button:hover {
     width:100%;
     height:auto;
 }
-.business-ideas{
+.business-ideas {
     background-color: #ECF0F7;
     display: grid;
     grid-template-columns: 1fr 1fr;
-   /*  height: 2200px; */
 }
-.idea{
+.idea {
     width: 100%;
 }
 
 .idea:nth-child(1) {
-   margin-top: 30%;
+    margin-top: 30%;
 }
 
 .idea:nth-child(2) {
- margin-top: 8%;
-    
+    margin-top: 8%;
 }
 
 .idea:nth-child(2n+4) {
@@ -271,7 +264,7 @@ button:hover {
     background-image: url(/image/IMAGEbtn-arrow.svg);
 }
 
-.main-photo-content{
+.main-photo-content {
     position: relative;
 }
 
@@ -280,7 +273,7 @@ button:hover {
 /* main-styles
  */
 
-.section{
+.section {
     padding: 120px;
     display: flex;
     flex-direction: column;
@@ -298,7 +291,7 @@ button:hover {
     width: 50%;
 }
 
-.h2-titles{
+.h2-titles {
 font-family: 'Unica One';
 font-style: normal;
 font-weight: 400;
@@ -306,13 +299,11 @@ font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
 color: #373C42;
-
 display: flex;
 flex-wrap: wrap;
 gap: 15px;
 align-items: center;
 margin: 0;
-
 }
 
 .h2-line {
@@ -330,11 +321,10 @@ margin: 0;
     font-size: 39px;
     line-height: 46px;
     color: #373C42;
-
     margin: 0;
 }
 
-.h4-title{
+.h4-title {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -350,7 +340,6 @@ color: #373C42;
     font-size: 18px;
     line-height: 28px;
     color: #373C42;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -382,10 +371,11 @@ color: #373C42;
 
 
  /* section solutions */
-.solutions{
+
+.solutions {
     flex-direction: row;
-    
 }
+
 .type-of-works{
     display: grid;
     grid-template-columns: 
@@ -395,12 +385,12 @@ color: #373C42;
     grid-gap: 10px;
 }
 
-.works-marker{
+.works-marker {
     display: inline-flex;
     gap: 15px;
 }
 
-.works-marker hr{
+.works-marker hr {
     width: 120px;
     background: #9181FF;
     height: 1px;
@@ -430,13 +420,11 @@ color: #373C42;
 
  /* section solutions */
 
-
-
 .procedure-color {
     background-color: #F8FE91;
 }
 
-.procedure{
+.procedure {
     flex-direction: row;
     gap: 50px;
 }
@@ -444,32 +432,36 @@ color: #373C42;
 .procedure-list {
     margin: 30px;
 }
+
 .procedure-titles {
     width: 50%;
 }
 
-.procedure-items{
+.procedure-items {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-.procedure-item h3{
+
+.procedure-item h3 {
     margin: 0;
     display: flex;
     width: 100%;
     align-items: center;
 }
 
-.procedure-item:nth-child(1n){
+.procedure-item:nth-child(1n) {
     border-top: 1px solid black;
 }
-.procedure-item:last-child{
+
+.procedure-item:last-child {
     /* margin-bottom:115px; */
     border-bottom: 1px solid black;
 }
-.procedure-item h3{
+
+.procedure-item h3 {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -482,7 +474,6 @@ color: #373C42;
 .procedure-item {
     display: flex;
     flex-basis: 113px;
-  
 }
 
 .procedure-item:first-child {
@@ -496,17 +487,20 @@ color: #373C42;
 .procedure-item:nth-child(3) {
     padding-left:30%;
 }
+
 .procedure-item:nth-child(4) {
     padding-left:63%;
 }
+
 .procedure-item:nth-child(5) {
     padding-left:39%;
 }
+
 .procedure-item:nth-child(6) {
     padding-left:11%;
 }
 
-.number-item{
+.number-item {
     font-family: 'Unica One';
     font-style: normal;
     font-weight: 400;
@@ -527,6 +521,7 @@ color: #373C42;
     #8372F0 360px, 
     rgba(156, 156, 156, 0.83)360px 361px, 
     #8372F0 361px 720px);
+
     padding: 120px;
     display: flex;
     gap:73px;
@@ -534,29 +529,29 @@ color: #373C42;
 }
 
 
-.flex-basis-50{
+.flex-basis-50 {
     flex-basis: 50%;
 }
 
 
 
-.width-100{
+.width-100 {
     width: 100%;
 }
 
-.color-white
-{
+.color-white {
     color: #FFFFFF;
 }
 
-.paragraph-about-medium{
+.paragraph-about-medium {
     padding-left: 10%;
 }
-.underline-white{
+
+.underline-white {
     background: #FFFFFF;
 }
 
-.review-image{
+.review-image {
     width: 100%;
     height: auto;
 }
@@ -584,22 +579,21 @@ color: #373C42;
     right: 390px;
 }
 
-.reviews{
+.reviews {
     position: relative;
 }
 
-.worker-position{
+.worker-position {
     display: flex;
     gap: 20px;
 }
 .photo-worker {
     width: 50px;
     height: 50px;
-   
 }
 
-.review-lindsay .photo-worker{
-   background-size: cover;
+.review-lindsay .photo-worker {
+    background-size: cover;
     background-image: url(/image/IMAGElindsay-review.svg);
 }
 
@@ -608,7 +602,7 @@ color: #373C42;
     background-size: cover;
 }
 
-.review-text{
+.review-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -616,6 +610,7 @@ color: #373C42;
     line-height: 23px;
     color: #373C42;
 }
+
 .review-name {
     font-family: 'Roboto';
     font-style: normal;
@@ -628,7 +623,7 @@ color: #373C42;
 
 /* section values */
 
-.values{
+.values {
     padding: 120px 120px 0px 120px;
 }
 
@@ -640,7 +635,7 @@ color: #373C42;
     color: #7F8893;
 }
 
-.faqs{
+.faqs {
     width: 100%;
     border: 2px solid #ABB9CA;
     border-bottom: none;
@@ -654,17 +649,15 @@ color: #373C42;
     position: absolute;
     bottom: 45%;
     left: 15%;
-
 }
-.faqs-item{ 
+
+.faqs-item { 
     display: flex;
     gap: 22px;
     flex-basis: 300px;
 }
 
-
-
-.faqs-item h4{
+.faqs-item h4 {
     display: flex;
     flex-direction: column;
 }
@@ -676,9 +669,6 @@ color: #373C42;
     transform: rotate(180deg);
     background: #ABB9CA;
 }
-
-
-
 
 .faqs-item:first-child {
     padding-top: 30%;
@@ -699,6 +689,7 @@ color: #373C42;
 /* section values */
 
 /* section-article questions */
+
 .questions {
     flex-direction: row;
     gap: 50px;
@@ -725,16 +716,16 @@ color: #373C42;
     background-color: white;
 }
 
-.question-menu button:hover{
+.question-menu button:hover {
     background-color: rgba(219, 253, 220, 0.596);
 }
 
-.question-menu button:focus{
+.question-menu button:focus {
     background-color:  rgba(219, 253, 220, 0.596);
     border-bottom: 3px solid grey;
 }
 
-.questions-items{
+.questions-items {
     display: grid;
     grid-template-columns: repeat(auto-fill, 45%);
     grid-template-rows: 1fr 1fr 1fr;
@@ -742,7 +733,7 @@ color: #373C42;
     justify-content: center;
 }
 
-.btn-more{
+.btn-more {
     position: absolute;
     background-size: cover;
     background-image: url(/image/IMAGEbtn-more.svg);
@@ -754,15 +745,12 @@ color: #373C42;
     right: 5%;
 }
 
-.questions-items div{
+.questions-items div {
     position: relative;
     border:1px solid rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 30px;
 }
-
-
-
 
 /* section-article questions */
 
@@ -774,7 +762,7 @@ color: #373C42;
     margin-top: 55px;
 }
 
-.worker-man{
+.worker-man {
     height: auto;
     width: 50%;
 }
@@ -815,15 +803,15 @@ align-items: center;
 justify-content: center;
 }
 
-.input-area:first-child{
+.input-area:first-child {
     grid-row: 1 / span 3;
 }
 
-.input-area:last-child{
+.input-area:last-child {
     height: 100%;
 }
 
-.input-area:nth-child(2){
+.input-area:nth-child(2) {
     height:50%;
 }
 
@@ -834,19 +822,18 @@ justify-content: center;
     background: #F6F8FA;
     border: 1px solid #CCCCCC;
     border-radius: 3px;
-    }
+}
 
-.input::placeholder{
+.input::placeholder {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     color: #000000;
-    
 }
 
-.input-height{
+.input-height {
     height: 15%;
 }
 /* contact us */
@@ -865,7 +852,7 @@ justify-content: center;
     color:  #7F8893;
 }
 
-.footer-nav{
+.footer-nav {
     display: flex;
     justify-content: center;
 }
@@ -875,7 +862,7 @@ justify-content: center;
     justify-content: center;
 }
 
-.copyright-footer{
+.copyright-footer {
     background-color: #292E36;
     display: flex;
     flex-direction: column;
@@ -890,18 +877,17 @@ justify-content: center;
     list-style: none;
     gap: 5px;
     flex-wrap: wrap;
-
 }
 
-.color-ABB9CA{
+.color-ABB9CA {
     color: #ABB9CA;
 }
 
 .color-violet{
-   color: #9181FF;
+    color: #9181FF;
 }
 
-.copyright-footer-links li{
+.copyright-footer-links li {
     border-right: 1px solid #ABB9CA;
     padding-right: 5px;
 }
@@ -916,15 +902,15 @@ justify-content: center;
     }
 
 
-    .line-square{
+    .line-square {
         display: none;
     }
 
-    .review-lindsay, .review-robert{
+    .review-lindsay, .review-robert {
         position: static;
     }
 
-    .reviews{
+    .reviews {
         display: flex;
         flex-wrap: wrap;
     }
@@ -942,18 +928,18 @@ justify-content: center;
         padding: 0;
     }
 
-    .faqs-list{
+    .faqs-list {
         position: static;
         flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .about-medium{
+    .about-medium {
         flex-wrap: wrap;
     }
 
-    .line-square{
+    .line-square {
         display: none;
     }
 
@@ -1025,7 +1011,7 @@ justify-content: center;
 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
     .solutions {
         flex-direction: column;
     }
